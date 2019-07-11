@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "my_app.__init__.app",
+        "aws_region": "ap-south-1",
+        "profile_name": "personal",
+        "project_name": "chapter-13",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-chupnt4b0"
+    }
+}

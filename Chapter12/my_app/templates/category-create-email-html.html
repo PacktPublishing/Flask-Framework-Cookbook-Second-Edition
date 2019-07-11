@@ -1,0 +1,8 @@
+<p>A new category has been added to the catalog.</p>
+
+<p>The name of the category is <a href="{{ url_for('catalog.category', id=category.id, _external = True) }}">
+      <h2>{{ category.name }}</h2>
+    </a>.
+</p>
+
+<p>This is an automated email. Do not reply to it.</p>

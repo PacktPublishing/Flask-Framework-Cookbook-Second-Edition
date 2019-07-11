@@ -1,0 +1,32 @@
+{% extends 'admin-home.html' %}
+
+{% block container %}
+  <h3>Hey {{ current_user.username }}!! Below is the list of users in system</h3>
+  <br/>
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Is Admin ?</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for user in users %}
+        <tr>
+          <td>{{ user.id }}</td>
+          <td>{{ user.username }}</td>
+          <td>{{ user.admin }}</td>
+          <td>
+            <a href="{{ url_for('auth.user_update_admin', id=user.id) }}" class="btn btn-info btn-xs">Edit</a>
+          </td>
+          <td>
+            <a class="btn btn-danger btn-xs" href={{ url_for('auth.user_delete_admin', id=user.id) }}>Delete</a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

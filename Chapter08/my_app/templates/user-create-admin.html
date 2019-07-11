@@ -1,0 +1,16 @@
+{% extends 'home.html' %}
+
+{% block container %}
+  <div class="top-pad">
+    <form
+        method="POST"
+        action="{{ url_for('auth.user_create_admin') }}"
+        role="form">
+      {{ form.csrf_token }}
+      <div class="form-group">{{ form.username.label }}: {{ form.username() }}</div>
+      <div class="form-group">{{ form.password.label }}: {{ form.password() }}</div>
+      <div class="form-group">{{ form.admin.label }}: {{ form.admin() }}</div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+{% endblock %}

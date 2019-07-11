@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block container %}
+  <h1>Welcome to the Admin Demo</h1>
+  <h3>Hey {{ current_user.username }}!!</h3>
+  <a href="{{ url_for('auth.users_list_admin') }}">List of all users</a>
+  <br/>
+  <a href="{{ url_for('auth.user_create_admin') }}">Create a new user</a>
+  <br/>
+  <a href="{{ url_for('auth.logout') }}">Click here to logout</a>
+{% endblock %}

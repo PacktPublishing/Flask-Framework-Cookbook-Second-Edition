@@ -1,0 +1,15 @@
+{% extends 'home.html' %}
+
+{% block container %}
+  <div class="top-pad">
+    <form
+        method="POST"
+        action="{{ url_for('auth.login') }}"
+        role="form">
+      {{ form.csrf_token }}
+      <div class="form-group">{{ form.username.label }}: {{ form.username() }}</div>
+      <div class="form-group">{{ form.password.label }}: {{ form.password() }}</div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'home.html' %}
+
+{% block container %}
+  <div class="top-pad">
+    {% for product in products.items %}
+      <div class="well">
+        <h2>
+          <a href="{{ url_for('catalog.product', id=product.id) }}">{{ product.name }}</a>
+          <small>$ {{ product.price }}</small>
+        </h2>
+      </div>
+    {% endfor %}
+    {% if products.has_prev %}
+      <a href="{{ url_for('catalog.products', page=products.prev_num) }}">
+        {{"<< Previous Page"}}
+      </a>
+    {% else %}
+      {{"<< Previous Page"}}
+    {% endif %} |
+    {% if products.has_next %}
+      <a href="{{ url_for('catalog.products', page=products.next_num) }}">
+        {{"Next page >>"}}
+      </a>
+    {% else %}
+      {{"Next page >>"}}
+    {% endif %}
+  </div>
+{% endblock %}

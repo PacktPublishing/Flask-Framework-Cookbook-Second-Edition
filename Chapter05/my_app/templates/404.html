@@ -1,0 +1,8 @@
+{% extends 'home.html' %}
+
+{% block container %}
+  <div class="top-pad">
+    <h3>Hola Friend! Looks like in your quest you have reached a location which does not exist yet.</h3>
+    <h4>To continue, either check your map location (URL) or go back <a href="{{ url_for('catalog.home') }}">home</a></h4>
+  </div>
+{% endblock %}

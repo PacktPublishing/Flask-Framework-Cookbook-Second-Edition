@@ -1,0 +1,44 @@
+{% extends 'home.html' %}
+
+{% block container %}
+  <div class="top-pad">
+    <ul class="nav nav-tabs">
+     <li class="active"><a href="#simple-form" data-toggle="tab">Old Style Login</a></li>
+     <li><a href="#social-logins" data-toggle="tab">Social Logins</a></li>
+     <li><a href="#ldap-form" data-toggle="tab">LDAP Login</a></li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane active" id="simple-form">
+        <br/>
+        <form
+            method="POST"
+            action="{{ url_for('auth.login') }}"
+            role="form">
+          {{ form.csrf_token }}
+          <div class="form-group">{{ form.username.label }}: {{ form.username() }}</div>
+          <div class="form-group">{{ form.password.label }}: {{ form.password() }}</div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+      <div class="tab-pane" id="social-logins">
+        <a href="{{ url_for('auth.facebook_login', next=url_for('auth.home')) }}">Login via Facebook</a>
+        <br/>
+        <a href="{{ url_for('auth.google_login', next=url_for('auth.home')) }}">Login via Google</a>
+        <br/>
+        <a href="{{ url_for('auth.twitter_login', next=url_for('auth.home')) }}">Login via Twitter</a>
+      </div>
+      <div class="tab-pane" id="ldap-form">
+        <br/>
+        <form
+            method="POST"
+            action="{{ url_for('auth.ldap_login') }}"
+            role="form">
+          {{ form.csrf_token }}
+          <div class="form-group">{{ form.username.label }}: {{ form.username() }}</div>
+          <div class="form-group">{{ form.password.label }}: {{ form.password() }}</div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+{% endblock %}

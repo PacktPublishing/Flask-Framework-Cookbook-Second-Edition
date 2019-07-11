@@ -1,0 +1,82 @@
+# French translations for PROJECT.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-10-22 12:19+0530\n"
+"PO-Revision-Date: 2014-10-22 11:48+0530\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: my_app/catalog/models.py:42 my_app/catalog/models.py:105
+msgid "Name"
+msgstr "Nom"
+
+#: my_app/catalog/models.py:74
+msgid "Not a valid choice"
+msgstr ""
+
+#: my_app/catalog/models.py:78
+msgid "Price"
+msgstr "Prix"
+
+#: my_app/catalog/models.py:82
+msgid "Category"
+msgstr "Catégorie"
+
+#: my_app/catalog/models.py:84
+msgid "Product Image"
+msgstr "Image du produit"
+
+#: my_app/catalog/views.py:86
+#, python-format
+msgid "The product %(name)s has been created"
+msgstr "Le produit %(name)s a été créé."
+
+#: my_app/catalog/views.py:128
+#, python-format
+msgid "The category %(name)s has been created"
+msgstr ""
+
+#: my_app/templates/home.html:4
+msgid "Welcome to the Catalog Home"
+msgstr "Bienvenue sur le catalogue Accueil"
+
+#: my_app/templates/home.html:6
+msgid "Click here to see the catalog "
+msgstr "Cliquez ici pour voir le catalogue "
+
+#: my_app/templates/products.html:15
+msgid "<< Previous Page"
+msgstr ""
+
+#: my_app/templates/products.html:18
+msgid "No Previous Page"
+msgstr ""
+
+#: my_app/templates/products.html:20
+#, python-format
+msgid "%(num)d page"
+msgid_plural "%(num)d pages"
+msgstr[0] "%(num)d page"
+msgstr[1] "%(num)d pages"
+
+#: my_app/templates/products.html:23
+msgid "Next page >>"
+msgstr ""
+
+#: my_app/templates/products.html:26
+msgid "No Next page"
+msgstr ""
+
