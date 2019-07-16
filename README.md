@@ -40,27 +40,27 @@ With the following software and hardware list you can run all code files present
 
 ### Software and Hardware List
 
-| Chapter  | Software required                   | OS required                        |
-| -------- | ------------------------------------| -----------------------------------|
-| 1        | Flask, Virtualenv, virtualenvwrapper    | Windows, Mac OS X, and Linux (Any) |
-| 2        | Twitter Bootstrap, ccy, Moment.js       | Windows, Mac OS X, and Linux (Any) |
-| 3        | Flask-sqlalchemy, requests,             | Windows, Mac OS X, and Linux (Any) |
-           | Redis, Flask-Migrate, Flask-mongoengine,               
-| 4        | -                                       | -                                  |
-| 5        | Wtforms, Flask-WTF                      | Windows, Mac OS X, and Linux (Any) |
-| 6        | Flask-Login, pyOpenSSL, Flask-Dance, 
-           |  python-ldap                            | Windows, Mac OS X, and Linux (Any) |
-| 7        | Flask-Restful, requests                 | Windows, Mac OS X, and Linux (Any) |
-| 8        | Flask-Admin, CKEditor.js                | Windows, Mac OS X, and Linux (Any) |
-| 9        | Flask-Babel                             | Windows, Mac OS X, and Linux (Any) |
-| 10       | sentry-sdk, Nose, geoip2, Coverage      | Windows, Mac OS X, and Linux (Any) |
-| 11       | mod_wsgi, Nginx, uwsgi, gunicorn,  
-           | supervisor, Tornado, boto3, newrelic,                                       
-           | Heroku CLI, AWS Elastic Beanstalk setup | Windows, Mac OS X, and Linux (Any) |
-| 12       | Docker, Minikube, zappa                 | Windows, Mac OS X, and Linux (Any) |
-| 13       | Flask-WhooshAlchemy, elasticsearch python 
-           | library, Elasticsearch, Flask-Caching,
-           | Flask-Mail, Celery                      | Windows, Mac OS X, and Linux (Any) |
+| Chapter  | Software required                         | OS required                        |
+| -------- | ------------------------------------      | -----------------------------------|
+| 1        | Flask, Virtualenv, virtualenvwrapper      | Windows, Mac OS X, and Linux (Any) |
+| 2        | Twitter Bootstrap, ccy, Moment.js         | Windows, Mac OS X, and Linux (Any) |
+| 3        | Flask-sqlalchemy, requests,               | Windows, Mac OS X, and Linux (Any) |
+|          | Redis, Flask-Migrate, Flask-mongoengine,  |                                    |
+| 4        | -                                         | -                                  |
+| 5        | Wtforms, Flask-WTF                        | Windows, Mac OS X, and Linux (Any) |
+| 6        | Flask-Login, pyOpenSSL, Flask-Dance,      |                                    |
+|          |  python-ldap                              | Windows, Mac OS X, and Linux (Any) |
+| 7        | Flask-Restful, requests                   | Windows, Mac OS X, and Linux (Any) |
+| 8        | Flask-Admin, CKEditor.js                  | Windows, Mac OS X, and Linux (Any) |
+| 9        | Flask-Babel                               | Windows, Mac OS X, and Linux (Any) |
+| 10       | sentry-sdk, Nose, geoip2, Coverage        | Windows, Mac OS X, and Linux (Any) |
+| 11       | mod_wsgi, Nginx, uwsgi, gunicorn,         |                                    |
+|          | supervisor, Tornado, boto3, newrelic,     |                                    |                                  
+|          | Heroku CLI, AWS Elastic Beanstalk setup   | Windows, Mac OS X, and Linux (Any) |
+| 12       | Docker, Minikube, zappa                   | Windows, Mac OS X, and Linux (Any) |
+| 13       | Flask-WhooshAlchemy, elasticsearch python |                                    |
+|          | library, Elasticsearch, Flask-Caching,    |                                    |
+|          | Flask-Mail, Celery                        | Windows, Mac OS X, and Linux (Any) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](Graphics Bundle Link).
 
