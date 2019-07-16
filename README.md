@@ -1,8 +1,8 @@
 # Flask Framework Cookbook
 
-<a href="Packt UTM URL of the Book"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781789951295-original.jpeg" alt="Book Name" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/web-development/flask-framework-cookbook-second-edition"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781789951295-original.jpeg" alt="Book Name" height="256px" align="right"></a>
 
-This is the code repository for [Flask Framework Cookbook](Packt UTM URL of the Book), published by Packt.
+This is the code repository for [Flask Framework Cookbook](https://www.packtpub.com/web-development/flask-framework-cookbook-second-edition), published by Packt.
 
 **Over 80 proven recipes and techniques for Python web development with Flask**
 
@@ -42,22 +42,25 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1        | R version 3.3.0                     | Windows, Mac OS X, and Linux (Any) |
-| 2        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 3        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 4        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 5        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 6        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 7        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 8        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 9        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 10        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 11        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 12        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 13        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 14        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 15        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-
+| 1        | Flask, Virtualenv, virtualenvwrapper    | Windows, Mac OS X, and Linux (Any) |
+| 2        | Twitter Bootstrap, ccy, Moment.js       | Windows, Mac OS X, and Linux (Any) |
+| 3        | Flask-sqlalchemy, requests,             | Windows, Mac OS X, and Linux (Any) |
+           | Redis, Flask-Migrate, Flask-mongoengine,               
+| 4        | -                                       | -                                  |
+| 5        | Wtforms, Flask-WTF                      | Windows, Mac OS X, and Linux (Any) |
+| 6        | Flask-Login, pyOpenSSL, Flask-Dance, 
+           |  python-ldap                            | Windows, Mac OS X, and Linux (Any) |
+| 7        | Flask-Restful, requests                 | Windows, Mac OS X, and Linux (Any) |
+| 8        | Flask-Admin, CKEditor.js                | Windows, Mac OS X, and Linux (Any) |
+| 9        | Flask-Babel                             | Windows, Mac OS X, and Linux (Any) |
+| 10       | sentry-sdk, Nose, geoip2, Coverage      | Windows, Mac OS X, and Linux (Any) |
+| 11       | mod_wsgi, Nginx, uwsgi, gunicorn,  
+           | supervisor, Tornado, boto3, newrelic,                                       
+           | Heroku CLI, AWS Elastic Beanstalk setup | Windows, Mac OS X, and Linux (Any) |
+| 12       | Docker, Minikube, zappa                 | Windows, Mac OS X, and Linux (Any) |
+| 13       | Flask-WhooshAlchemy, elasticsearch python 
+           | library, Elasticsearch, Flask-Caching,
+           | Flask-Mail, Celery                      | Windows, Mac OS X, and Linux (Any) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](Graphics Bundle Link).
 
