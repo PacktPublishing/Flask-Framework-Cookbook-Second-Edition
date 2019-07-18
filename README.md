@@ -74,7 +74,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ### Related products <Other books you may enjoy>
 * Hands-On RESTful Python Web Services - Second Edition [[Packt]](https://www.packtpub.com/application-development/hands-restful-python-web-services-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789532227) [[Amazon]](https://www.amazon.com/dp/1789532221)
 
-* Django 2 by Example [[Packt]](Django%202%20by%20Example?utm_source=github&utm_medium=repository&utm_campaign=9781788472487) [[Amazon]](https://www.amazon.com/dp/1788472489)
+* Django 2 by Example [[Packt]](https://www.packtpub.com/application-development/django-2-example?utm_source=github&utm_medium=repository&utm_campaign=9781788472487) [[Amazon]](https://www.amazon.com/dp/1788472489)
 
 ## Get to Know the Author
 **Shalabh Aggarwal**
@@ -82,7 +82,7 @@ has more than 10 years' experience in developing and managing enterprise systems
 He is also active in voluntary training for engineering students on non-conventional and open source topics. When not working with full-time assignments, he consults for start-ups on leveraging different technologies. When not writing code, he writes technical and nontechnical literature, which is published across multiple blogs.
 
 ## Other books by the authors
-* [Flask Framework Cookbook](Flask%20Framework%20Cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781783983407)
+* [Flask Framework Cookbook](https://www.packtpub.com/web-development/flask-framework-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781783983407)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
