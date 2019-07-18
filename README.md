@@ -9,7 +9,7 @@ This is the code repository for [Flask Framework Cookbook](https://www.packtpub.
 ## What is this book about?
 Flask, the lightweight Python web framework, is popular due to its powerful modular design that lets you build scalable web apps. With this recipe-based guide, you’ll explore modern solutions and best practices for Flask web development.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features: 
 * Explore web application development in Flask, right from installation to post-deployment stages
 * Make use of advanced templating and data modeling techniques
 * Discover effective debugging, logging, and error handling techniques in Flask
@@ -39,6 +39,7 @@ if __name__ == '__main__':
 ```
 
 **Following is what you need for this book:**
+
 If you are a web developer who wants to learn more about developing scalable and production-ready applications in Flask, this is the book for you. You’ll also find this book useful if you are already aware of Flask's major extensions and want to use them for better application development. Basic Python programming experience along with basic understanding of Flask is assumed.
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-13).
