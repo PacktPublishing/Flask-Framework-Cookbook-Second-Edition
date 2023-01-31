@@ -2,7 +2,7 @@ Babel==2.6.0
 blinker==1.4
 boto3==1.9.145
 botocore==1.12.145
-certifi==2019.3.9
+certifi==2022.12.7
 chardet==3.0.4
 Click==7.0
 docutils==0.14
